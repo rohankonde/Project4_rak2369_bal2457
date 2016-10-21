@@ -336,8 +336,6 @@ public abstract class Critter {
 		}
 		
 		for(Critter crit:population){
-			System.out.println(crit.y_coord);
-			System.out.println(crit.x_coord);
 			dispMatrix[crit.y_coord+1][crit.x_coord+1] = crit.toString();
 			
 		}
